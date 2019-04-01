@@ -1,0 +1,108 @@
+:root{
+  --brandColor:#3C677F;
+}
+*{
+  color: inherit;
+  font-family: 'Noto Sans JP', arial,sans-serif;
+
+}
+
+  body{
+    font-size: 0.75rem;
+  }
+
+.bold {
+  font-weight: 700;
+}
+nav ul a , .material-icons, .sidenav li>a{
+  color: var(--brandColor);
+}
+nav ul a.btn>.material-icons {
+  display: inline;
+}
+.products-tool-bar {
+  padding: 0 0.75rem;
+}
+#show-img {
+  width: 70%;
+}
+.row .col.fixed-right {
+  position: fixed;
+  right: 0;
+}
+.flex{
+  display: flex;
+}
+.flex-align-between{
+  justify-content: space-between;
+}
+.menu-nav {
+  border-top: 2px solid #3C677F;
+  border-bottom:2px solid #3C677F;
+}
+.no-shadow {
+  box-shadow: none;
+}
+
+.brand-font-color {
+  color: var(--brandColor);
+}
+.brandBgColor {
+  background: var(--brandColor);
+}
+.brandBorder {
+  border: 1px solid var(--brandColor);
+}
+.color {
+  color: inherit;
+}
+
+.hover-dark:hover {
+  background: var(--brandColor);
+  color: white;
+}
+
+.hover-light:hover {
+  background: transparent;
+  color: var(--brandColor);
+}
+.hover-light:active {
+  color: white;
+}
+.light-btn {
+  background: transparent;
+}
+.waves-effect.waves-brand .waves-ripple {
+  background-color: var(--brandColor);
+}
+.m-right {
+  margin-right: 7px;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+nav .brandLogo {
+  height: 100%;
+
+}
+.container {
+  height: 100%;
+}
+
+.page-footer , .footer-copyright {
+  background-color: white;
+  border-top: 2px solid var(--brandColor);
+  color: var(--brandColor);
+}
+.footer-copyright .container {
+  color: var(--brandColor);
+}
+
+.modal, .modal .modal-footer {
+  background-color: var(--brandColor);
+  color: white;
+}
+.btn-flat {
+  color: white;
+}
